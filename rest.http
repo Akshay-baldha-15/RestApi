@@ -1,0 +1,33 @@
+GET http://localhost:5000/products
+
+###
+
+POST http://localhost:5000/products
+
+Content-Type: application/application/json
+
+{
+    "productId": "shsjxaskschskd",
+    "productName": "shoes",
+    "qtyPerUnit": 55,
+    "unitPrice": 40,
+    "unitInStock": 5,
+    "discontinued": false,
+    "categoryId": "ddhhdsjsbbjsdj"
+}
+
+###
+
+GET http://localhost:5000/products/id
+
+###
+
+PATCH http://localhost:5000/products/id
+
+###
+
+DELETE http://localhost:5000/products/id
+
+###
+
+GET http://localhost:5000/abc_xyz
